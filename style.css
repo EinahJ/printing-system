@@ -160,6 +160,7 @@ nav ul li a:hover {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 #show-less-button {
@@ -170,6 +171,7 @@ nav ul li a:hover {
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .review-buttons {
@@ -186,6 +188,7 @@ nav ul li a:hover {
     font-size: 15px;
     color: #333;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 #less-rev-button {
@@ -195,10 +198,10 @@ nav ul li a:hover {
     font-size: 15px;
     color: #333;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .review-section {
-    background-color: #f9f9f9;
     padding: 40px 20px;
     text-align: left;
 }
@@ -262,6 +265,7 @@ footer {
     color: black;
     padding: 50px;
     padding-top: 20px;
+    margin-left: 30px;
 }
   
 .footer-column {
@@ -341,5 +345,23 @@ footer {
     display: block;
   }
 
+  .pagination {
+    display: flex;
+    margin: 20px 0px 20px 60px;
+}
 
-  
+  .pagination button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
